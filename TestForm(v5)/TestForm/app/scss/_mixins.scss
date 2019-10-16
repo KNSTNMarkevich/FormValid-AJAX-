@@ -1,0 +1,29 @@
+@mixin input {
+    box-sizing: border-box;
+    width: 347px;
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid#e0e0e0;
+    border-radius: 5px;
+}
+
+@mixin forma_block {
+    width: 347px;
+    height: 79px;
+}
+
+@mixin user {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+@mixin message_input {
+    box-sizing: border-box;
+    width: 714px;
+    height: 50px;
+    margin-top: 10px;
+    color: #666;
+    border: 1px solid#e0e0e0;
+    border-radius: 5px;
+}
