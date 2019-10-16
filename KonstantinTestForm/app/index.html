@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="forma">
+        <div class="container">
+            <div id="test">
+                <form class="form" action="#">
+                    <div class="name">
+                        <label class="name__user" for="name">Имя<br /></label>
+                        <input class="name__input" name="name" id="name" placeholder="Введите имя" type="text">
+                    </div>
+                    <div class="surname">
+                        <label class="surname__user" for="surname">Фамилия<br /></label>
+                        <input class="surname__input" name="surname" id="surname" placeholder="Введите фамилию "
+                            type="text">
+                    </div>
+                    <div class="message">
+                        <label class="message__user" for="message">Сообщение<br /></label>
+                        <input type="text" class="message__input" name="message" id="message"
+                            placeholder="Введите текст">
+                    </div>
+                    <div class="question">
+                        <label class="question__user" for="subject-field">Причина вопроса</label>
+                        <select class="question__select" id="subject-field">
+                            <option value="Consulting">Не выбрано</option>
+                        </select>
+                    </div>
+                    <div class="btn">
+                        <div class="btn__submit">
+                            <button class="btn__text" type="submit">
+                                Отправить
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
